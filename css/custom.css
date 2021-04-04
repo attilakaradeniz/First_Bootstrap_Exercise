@@ -1,0 +1,165 @@
+html{
+
+    height: 150%;
+    padding: 0px;
+}
+
+.nav{
+    padding: 3px;
+    margin: 0px;
+    background: #666666 !important;
+    border: solid thin red;
+    color: white !important;
+}
+
+.nav-link{
+    color: white!important;
+}
+
+.active{
+     background-color: #888888!important; 
+    background-color: rgb(224, 61, 61)!important;
+} 
+
+@media print{
+    .nav {
+        display: none;
+    }
+}
+
+#stickyNav{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    background-color: white;
+}
+
+
+
+body{
+    background-color: #dddddd !important;
+    padding: 0px;
+    margin: 0;
+}
+
+.left{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #dddddd;
+    float: left;
+   
+    padding: 10px;
+    margin: 1px;
+    border-radius: 15px;
+    color: #555555;
+    
+}
+
+.headRight{
+    height: 100px;
+    background: #666666;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.person{
+    position: relative;
+    background: #666666;
+    border-radius: 15px;
+    height: 13%;
+    padding: 5px;
+    text-align: justify;
+    border: dotted red 2px !important;
+    color: #dddddd;
+    margin: 5px;
+}
+
+.mainRight{
+    position: relative;
+    background: #666666;
+    border-radius: 15px;
+    height: 50%;
+    text-align: justify;
+    padding: 5px;
+    color: #dddddd;
+    margin: 5px;
+}
+
+.divPhoto{
+        position: relative;
+        top: 50px;
+        background: #dddddd;
+        text-align: center;
+        border-radius: 15px; 
+}
+
+#cvPhoto{
+    border-radius: 15px;
+}
+
+.caption{
+  position: absolute;
+  color: white;
+  background: #444444;
+  width: 200px;
+  border-radius: 80px;
+  border: solid #888888;
+  font-size: 20px;
+  text-align: center;
+}
+
+.firstLetter{
+  color: red;
+  font-size: 20px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    border: solid thin yellow;
+    color: white;
+}
+
+
+#cop {
+    color: yellow;
+  }
+  
+  form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.checkout2Container{
+    position: relative;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.checkout2headContainer{
+    position: absolute;
+    
+    height: 50px;
+    border-radius: 15px;
+    top: 20%;
+
+}
+
+.welcome{
+    position: absolute;
+    color: red;
+    font-size: 72px;
+    border-top: solid red;
+    border-bottom: solid red;
+    top: 30%;
+}
